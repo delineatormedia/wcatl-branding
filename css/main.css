@@ -1,0 +1,217 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Roboto:400,400i,500,500i&display=swap");
+/* line 4, src/sass/components/_base.scss */
+#bg {
+  background: #0073aa;
+  background: radial-gradient(circle, #0073aa 50%, #005177 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* line 15, src/sass/components/_base.scss */
+body, html {
+  font-family: "Roboto", sans-serif;
+  background: #0073aa;
+}
+
+/* line 21, src/sass/components/_base.scss */
+#colors .row {
+  margin-bottom: 0;
+}
+
+/* line 26, src/sass/components/_base.scss */
+.color {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+/* line 32, src/sass/components/_base.scss */
+.color__hex {
+  width: 7rem;
+}
+
+/* line 36, src/sass/components/_base.scss */
+.color__r, .color__g, .color__b {
+  width: 3rem;
+}
+
+/* line 41, src/sass/components/_base.scss */
+.color .color-green-dark {
+  background: #04381b;
+}
+
+/* line 45, src/sass/components/_base.scss */
+.color .color-peach-solid {
+  background: #f28047;
+}
+
+/* line 49, src/sass/components/_base.scss */
+.color .color-sky-dark {
+  background: #62d6f0;
+}
+
+/* line 53, src/sass/components/_base.scss */
+.color .color-sky-light {
+  background: #e3fffd;
+}
+
+/* line 57, src/sass/components/_base.scss */
+.color .color-bg-teal {
+  background: #00c8b4;
+}
+
+/* line 61, src/sass/components/_base.scss */
+.color .color-tree-green {
+  background: #008f70;
+}
+
+/* line 65, src/sass/components/_base.scss */
+.color input {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border-radius: 0.25rem;
+  font-family: monospace;
+}
+
+/* line 74, src/sass/components/_base.scss */
+.color label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+/* line 83, src/sass/components/_base.scss */
+.color .meta {
+  width: 100%;
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+/* line 90, src/sass/components/_base.scss */
+.color .swatch {
+  height: 200px;
+  border: 1px solid #ddd;
+}
+
+/* line 100, src/sass/components/_base.scss */
+.fadeback {
+  color: #aaa;
+}
+
+/* line 104, src/sass/components/_base.scss */
+.font-body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 108, src/sass/components/_base.scss */
+.font-heading {
+  font-family: "Indie Flower", cursive;
+}
+
+/* line 112, src/sass/components/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Indie Flower", cursive;
+  width: 100%;
+}
+
+/* line 117, src/sass/components/_base.scss */
+h1 {
+  text-align: center;
+}
+
+/* line 121, src/sass/components/_base.scss */
+h2 {
+  margin: 3rem 0;
+}
+
+/* line 125, src/sass/components/_base.scss */
+img {
+  margin-bottom: 2rem;
+  border: 1px solid #ddd;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 133, src/sass/components/_base.scss */
+.logo {
+  width: 50%;
+  margin: auto;
+  padding: 4rem;
+  border: 1px solid #ccc;
+}
+
+/* line 139, src/sass/components/_base.scss */
+.logo img {
+  border: 0;
+}
+
+/* line 144, src/sass/components/_base.scss */
+#main {
+  background: #fff;
+  margin-top: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  z-index: 1;
+  position: relative;
+}
+
+/* line 153, src/sass/components/_base.scss */
+#menu {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  max-width: 800px;
+  border-radius: 0.25rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/* line 161, src/sass/components/_base.scss */
+#menu h2 {
+  margin: 0 1rem;
+}
+
+/* line 165, src/sass/components/_base.scss */
+#menu .nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 170, src/sass/components/_base.scss */
+.row {
+  margin-bottom: 2rem;
+}
+
+/* line 174, src/sass/components/_base.scss */
+.section {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem;
+  padding: 4rem 2rem;
+}
+
+/* line 180, src/sass/components/_base.scss */
+.subsection {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+}
+
+/* line 185, src/sass/components/_base.scss */
+.subsection svg {
+  margin-bottom: 2rem;
+}
