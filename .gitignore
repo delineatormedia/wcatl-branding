@@ -9,3 +9,6 @@ dist
 ._*
 .Spotlight-V100
 .Trashes
+
+##JetBrains
+.idea
